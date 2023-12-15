@@ -10,8 +10,6 @@ class SSM:
     def forward(self, z):
         return self.array_phi
 
-        import numpy as np
-
     def phi(z_t):
         '''Computes the MAP estimate of the Dirichlet distribution'''
 
@@ -26,9 +24,7 @@ class SSM:
         return np.argmax(probas)
 
     def compute_theta(s_t):
-        #W= #matrix that maps LSTM states to latent states
-        #b= #bias term
-        return softmax(W @ s_t + b)
+        #utiliser update_theta de mcmc.ParticleGibbs
 
     def draw_observation(z_t):
         '''Samples from p(x_t; h(z_t))'''
