@@ -37,7 +37,7 @@ class SSM:
 
         for t in range(1,T+1):
             #1. Perform LSTM transition
-            s_t = LSTM(s_t, z_t)
+            #s_t = LSTM(s_t, z_t)
 
             #2. Draw latent state
             z_t = draw_latent_state(s_t)
