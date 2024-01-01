@@ -23,7 +23,8 @@ class LDA:
         def map_topic_to_words(row):
             return np.vectorize(word_to_topic.get)(row)
         Z = np.apply_along_axis(map_topic_to_words, axis=1, arr=X_str)
-        return Z
+        return Z+1
+    
 
 
 
