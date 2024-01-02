@@ -13,6 +13,7 @@ Implementation of the Topical State Space LSTM model for text sequence analysis,
   - [Inference](#inference)
 - [Project Structure](#project-structure)
 - [Results](#results)
+  - [Dataset](#dataset)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
@@ -43,3 +44,10 @@ pip install -r requirements.txt
 ```
 
 NOTE: run `load_data.ipynb` on Colab
+
+## Results
+
+### Dataset
+
+IMDB dataset having 50K movie reviews for NLP or text analytics.
+For more dataset information, please go through the following [link](http://ai.stanford.edu/~amaas/data/sentiment/)
