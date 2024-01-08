@@ -51,3 +51,24 @@ NOTE: run `load_data.ipynb` on Colab
 
 IMDB dataset having 50K movie reviews for NLP or text analytics.
 For more dataset information, please go through the following [link](http://ai.stanford.edu/~amaas/data/sentiment/)
+
+### Experiment
+
+The goal is to create a generative model. Given a sequence $(x_1, . . . , x_t)$, we want to predict $(x_{t+1}, . . . , x_T )$.
+Latent variables are the topic of each word (e.g : $x_1 = 'have'$ then $z_1 = 'verb'$).
+
+### Plots
+
+- P = 10, number of particules
+- K $\in \{ 10,50, 100\}$, number of topics
+- n_epochs = 5, number of epochs
+- n_iter_EM = 1 number of EM iterations
+- The evaluation metric is the perplexity
+
+<div style="text-align:center;">
+  <img src="./img/perplexity_10_topics.png" width="500" height="300">
+
+  <img src="./img/perplexity_50_topics.png" width="500" height="300">
+
+  <img src="./img/perplexity_100_topics.png" width="500" height="300">
+</div>
