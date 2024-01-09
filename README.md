@@ -38,13 +38,11 @@ cd src
 pip install -r requirements.txt
 ```
 
-NOTE: run `load_data.ipynb` on Colab
-
 ## Results
 
 ### Dataset
 
-IMDB dataset having 50K movie reviews for NLP or text analytics.
+IMDB dataset having 25K movie reviews for NLP or text analytics.
 For more dataset information, please go through the following [link](http://ai.stanford.edu/~amaas/data/sentiment/)
 
 ### Experiment
