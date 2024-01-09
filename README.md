@@ -8,15 +8,10 @@ Implementation of the Topical State Space LSTM model for text sequence analysis,
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-  - [Training](#training)
-  - [Inference](#inference)
-- [Project Structure](#project-structure)
 - [Results](#results)
   - [Dataset](#dataset)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+  - [Experiment](#experiment)
+  - [Plots](#plots)
 
 ## Introduction
 
