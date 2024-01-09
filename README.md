@@ -57,7 +57,6 @@ Latent variables are the topic of each word (e.g : $x_1 = 'have'$ then $z_1 = 'v
 - P = 10, number of particules
 - K $\in \{ 10,50, 100\}$, number of topics
 - n_epochs = 5, number of epochs
-- n_iter_EM = 1 number of EM iterations
 - The evaluation metric is the perplexity
 
 <div style="text-align:center;">
